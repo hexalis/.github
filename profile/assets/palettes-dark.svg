@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 230" width="1280" height="230" role="img" aria-labelledby="t d">
+<title id="t">Seis paletas</title>
+<desc id="d">Las seis paletas de Hexalis Design System: Espectral, Laguna, Aurora, Ciruela, Magma y Campo.</desc>
+<style>
+.rise{animation:rise .9s cubic-bezier(.23,1,.32,1) backwards}
+.pop{animation:pop .7s cubic-bezier(.23,1,.32,1) backwards;transform-box:fill-box;transform-origin:center}
+.fade{animation:fade 1.2s ease backwards}
+.draw{stroke-dasharray:1;animation:draw 2.4s cubic-bezier(.77,0,.175,1) backwards}
+.pulse{animation:pulse 2.8s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+.float{animation:float 6s ease-in-out infinite}
+.blink{animation:blink 1.1s steps(1) infinite}
+@keyframes rise{from{opacity:0;transform:translateY(14px)}}
+@keyframes pop{from{opacity:0;transform:scale(.6)}}
+@keyframes fade{from{opacity:0}}
+@keyframes draw{from{stroke-dashoffset:1}to{stroke-dashoffset:0}}
+@keyframes pulse{0%,100%{opacity:.45;transform:scale(.96)}50%{opacity:1;transform:scale(1)}}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:0}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+<defs>
+<symbol id="hex" viewBox="0 0 100 115.47"><path d="M57.8 4.5 L92.2 24.4 Q100 28.9 100 37.9 L100 77.6 Q100 86.6 92.2 91.1 L57.8 111 Q50 115.5 42.2 111 L7.8 91.1 Q0 86.6 0 77.6 L0 37.9 Q0 28.9 7.8 24.4 L42.2 4.5 Q50 0 57.8 4.5Z"/></symbol>
+<symbol id="cube" viewBox="0 0 34 34"><path d="M17 2 30 9.5 17 17 4 9.5Z" fill="#7A9FEB"/><path d="M4 9.5 17 17v15L4 24.5Z" fill="#2E4383"/><path d="M30 9.5 17 17v15l13-7.5Z" fill="#4064C6"/></symbol>
+
+</defs>
+<g class="pop" style="animation-delay:0.00s"><use href="#hex" x="36" y="10" width="58" height="66.97" fill="#7A9FEB"/></g><g class="pop" style="animation-delay:0.08s"><use href="#hex" x="98" y="10" width="58" height="66.97" fill="#4064C6"/></g><g class="pop" style="animation-delay:0.16s"><use href="#hex" x="67" y="63.72945" width="58" height="66.97" fill="#2E4383"/></g><g class="pop" style="animation-delay:0.24s"><use href="#hex" x="129" y="63.72945" width="58" height="66.97" fill="#6B5BD6"/></g>
+<g class="rise" style="animation-delay:0.40s"><text x="36" y="184" font-family="Inter, 'Segoe UI', system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#F2F4FA" text-anchor="start">Espectral</text>
+<text x="36" y="208" font-family="'JetBrains Mono', ui-monospace, Consolas, 'SFMono-Regular', monospace" font-size="12" font-weight="400" fill="#A6AEC4" text-anchor="start">#7A9FEB · #4064C6</text></g>
+<g class="pop" style="animation-delay:0.12s"><use href="#hex" x="249" y="10" width="58" height="66.97" fill="#4AA8F0"/></g><g class="pop" style="animation-delay:0.20s"><use href="#hex" x="311" y="10" width="58" height="66.97" fill="#0B6FB3"/></g><g class="pop" style="animation-delay:0.28s"><use href="#hex" x="280" y="63.72945" width="58" height="66.97" fill="#062F52"/></g><g class="pop" style="animation-delay:0.36s"><use href="#hex" x="342" y="63.72945" width="58" height="66.97" fill="#15A3A6"/></g>
+<g class="rise" style="animation-delay:0.50s"><text x="249" y="184" font-family="Inter, 'Segoe UI', system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#F2F4FA" text-anchor="start">Laguna</text>
+<text x="249" y="208" font-family="'JetBrains Mono', ui-monospace, Consolas, 'SFMono-Regular', monospace" font-size="12" font-weight="400" fill="#A6AEC4" text-anchor="start">#4AA8F0 · #0B6FB3</text></g>
+<g class="pop" style="animation-delay:0.24s"><use href="#hex" x="462" y="10" width="58" height="66.97" fill="#2BB8A3"/></g><g class="pop" style="animation-delay:0.32s"><use href="#hex" x="524" y="10" width="58" height="66.97" fill="#0C7A6C"/></g><g class="pop" style="animation-delay:0.40s"><use href="#hex" x="493" y="63.72945" width="58" height="66.97" fill="#073F3B"/></g><g class="pop" style="animation-delay:0.48s"><use href="#hex" x="555" y="63.72945" width="58" height="66.97" fill="#5B6FD6"/></g>
+<g class="rise" style="animation-delay:0.60s"><text x="462" y="184" font-family="Inter, 'Segoe UI', system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#F2F4FA" text-anchor="start">Aurora</text>
+<text x="462" y="208" font-family="'JetBrains Mono', ui-monospace, Consolas, 'SFMono-Regular', monospace" font-size="12" font-weight="400" fill="#A6AEC4" text-anchor="start">#2BB8A3 · #0C7A6C</text></g>
+<g class="pop" style="animation-delay:0.36s"><use href="#hex" x="675" y="10" width="58" height="66.97" fill="#B07CF2"/></g><g class="pop" style="animation-delay:0.44s"><use href="#hex" x="737" y="10" width="58" height="66.97" fill="#8A3FD1"/></g><g class="pop" style="animation-delay:0.52s"><use href="#hex" x="706" y="63.72945" width="58" height="66.97" fill="#331A68"/></g><g class="pop" style="animation-delay:0.60s"><use href="#hex" x="768" y="63.72945" width="58" height="66.97" fill="#D4547E"/></g>
+<g class="rise" style="animation-delay:0.70s"><text x="675" y="184" font-family="Inter, 'Segoe UI', system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#F2F4FA" text-anchor="start">Ciruela</text>
+<text x="675" y="208" font-family="'JetBrains Mono', ui-monospace, Consolas, 'SFMono-Regular', monospace" font-size="12" font-weight="400" fill="#A6AEC4" text-anchor="start">#B07CF2 · #8A3FD1</text></g>
+<g class="pop" style="animation-delay:0.48s"><use href="#hex" x="888" y="10" width="58" height="66.97" fill="#FF7A52"/></g><g class="pop" style="animation-delay:0.56s"><use href="#hex" x="950" y="10" width="58" height="66.97" fill="#C2401F"/></g><g class="pop" style="animation-delay:0.64s"><use href="#hex" x="919" y="63.72945" width="58" height="66.97" fill="#3A1310"/></g><g class="pop" style="animation-delay:0.72s"><use href="#hex" x="981" y="63.72945" width="58" height="66.97" fill="#F08C2E"/></g>
+<g class="rise" style="animation-delay:0.80s"><text x="888" y="184" font-family="Inter, 'Segoe UI', system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#F2F4FA" text-anchor="start">Magma</text>
+<text x="888" y="208" font-family="'JetBrains Mono', ui-monospace, Consolas, 'SFMono-Regular', monospace" font-size="12" font-weight="400" fill="#A6AEC4" text-anchor="start">#FF7A52 · #C2401F</text></g>
+<g class="pop" style="animation-delay:0.60s"><use href="#hex" x="1101" y="10" width="58" height="66.97" fill="#8FB0FF"/></g><g class="pop" style="animation-delay:0.68s"><use href="#hex" x="1163" y="10" width="58" height="66.97" fill="#1B47B8"/></g><g class="pop" style="animation-delay:0.76s"><use href="#hex" x="1132" y="63.72945" width="58" height="66.97" fill="#0D1A3D"/></g><g class="pop" style="animation-delay:0.84s"><use href="#hex" x="1194" y="63.72945" width="58" height="66.97" fill="#1B47B8"/></g>
+<g class="rise" style="animation-delay:0.90s"><text x="1101" y="184" font-family="Inter, 'Segoe UI', system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#F2F4FA" text-anchor="start">Campo</text>
+<text x="1101" y="208" font-family="'JetBrains Mono', ui-monospace, Consolas, 'SFMono-Regular', monospace" font-size="12" font-weight="400" fill="#A6AEC4" text-anchor="start">#8FB0FF · #1B47B8</text></g>
+</svg>
